@@ -4,15 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Giphy Party!</title>
+  <!-- local css file -->
+  <link rel="stylesheet" href="app.css" />
 </head>
 
 <body>
 <form>
   Search for Giphy
   <input type="text">
-  <button type="submit">Submit</button>
-
+  <button type="submit" id="search-button">Submit</button>
 </form>
+<br>
+<button id="remove-images-button">Remove all GIFs</button>
+<section class="images" id="images">
+
+</section>
 <script src="https://unpkg.com/jquery"></script>
 <script src="app.js"></script>
 </body>
